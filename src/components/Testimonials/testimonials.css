@@ -1,0 +1,58 @@
+/* testimonials.css */
+.testimonials-container {
+  width: 100%;
+  max-width: 700px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto; /* Center horizontally */
+  margin-top: 10vh; /* Center vertically on the screen */
+  padding: 20px;
+  transition: all 700ms;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; /* Include padding and border in the total width/height */
+}
+
+.testimonials-card {
+  margin-top: 20px;
+}
+
+.testimonials-navigation {
+  display: flex;
+  font-size: 3rem; /* Adjusted for better readability */
+  margin-top: 20px;
+  gap: 10px;
+  color: #8b5cf6; /* violet-400 */
+  font-weight: bold;
+}
+
+.testimonial-arrow {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.testimonial-arrow:hover {
+  color: #9333ea; /* violet-500 */
+}
+
+.testimonials-surprise {
+  margin-top: 20px;
+}
+
+.testimonials-surprise-button {
+  background-color: #8b5cf6; /* violet-400 */
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+  padding: 10px 20px; /* Adjusted for better button size */
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.testimonials-surprise-button:hover {
+  background-color: #9333ea; /* violet-500 */
+}
