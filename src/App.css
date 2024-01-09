@@ -153,6 +153,13 @@ section {
   color: #ffffff;
 }
 
+.choose-center--div,
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 /***** scrollbar Section *****/
 
 /* width */
