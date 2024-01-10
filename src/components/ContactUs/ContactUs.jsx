@@ -17,10 +17,8 @@ const ContactUs = () => {
             business. Our team is ready to assist you on your journey towards
             success.
           </p>
-          <div className="btn">
-            <a href="contact.html">
-              Get in Touch <i className="fa-solid fa-arrow-circle-right"></i>
-            </a>
+          <div className="btn contact-btn">
+            <a href="contact.html">Get in Touch</a>
           </div>
         </div>
         <div className="contact-image">

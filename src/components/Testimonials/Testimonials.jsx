@@ -1,4 +1,3 @@
-// Testimonials.jsx
 import React from "react";
 import Card from "./Card";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
@@ -41,33 +40,41 @@ const Testimonials = () => {
   }
 
   return (
-    <div className="testimonials-container">
-      <div className="testimonials-card">
-        <Card review={reviews[index]} />
-      </div>
+    <div className="testimonials-container section-testimonial">
+      <div className="container">
+        <h2 className="section-common-heading">Client Testimonials</h2>
+        <p className="section-common-subheading">
+          Hear what our clients have to say about their experiences with Assured
+          Services.
+        </p>
 
-      <div className="testimonials-navigation">
-        <button
-          onClick={leftShiftHandler}
-          className="testimonial-arrow testimonial-left"
-        >
-          <FiChevronLeft />
-        </button>
-        <button
-          onClick={rightShiftHandler}
-          className="testimonial-arrow testimonial-right"
-        >
-          <FiChevronRight />
-        </button>
-      </div>
+        <div className="testimonials-card" data-aos="zoom-in-up">
+          <Card review={reviews[index]} />
+        </div>
 
-      <div className="testimonials-surprise">
-        <button
-          onClick={surpriseHandler}
-          className="testimonials-surprise-button"
-        >
-          Surprise Me
-        </button>
+        <div className="testimonials-navigation">
+          <button
+            onClick={leftShiftHandler}
+            className="testimonial-arrow testimonial-left"
+          >
+            <FiChevronLeft />
+          </button>
+          <button
+            onClick={rightShiftHandler}
+            className="testimonial-arrow testimonial-right"
+          >
+            <FiChevronRight />
+          </button>
+        </div>
+
+        <div className="testimonials-surprise ">
+          <button
+            onClick={surpriseHandler}
+            className="testimonials-surprise-button"
+          >
+            Surprise Me
+          </button>
+        </div>
       </div>
     </div>
   );

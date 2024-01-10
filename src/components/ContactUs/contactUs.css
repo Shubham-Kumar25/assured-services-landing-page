@@ -29,19 +29,17 @@
 }
 
 .section-contact--homepage a {
-  color: var(--white-color);
+  color: black;
   text-transform: capitalize;
-}
-
-.section-contact--homepage .fa-solid {
-  padding: 0;
-  color: var(--white-color);
-  background-color: var(--main-color);
 }
 
 .section-contact--homepage img {
   width: 90%;
   height: auto;
+}
+
+.contact-btn:hover a {
+  color: white;
 }
 
 /***** End contact home Section *****/

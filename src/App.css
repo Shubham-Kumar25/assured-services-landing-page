@@ -77,7 +77,8 @@ section {
     .section-contact,
     .section-course,
     .section-why--choose,
-    .section-contact--homepage
+    .section-contact--homepage,
+    .section-testimonial
   )
   .container:first-child {
   padding: 6.4rem 2.4rem 2.4rem 2.4rem;
@@ -105,10 +106,12 @@ section {
   font-size: 3.2rem;
   font-weight: 700;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .section-common-subheading {
   color: var(--heading-color);
+  text-align: center;
 }
 
 .section-common--title {
@@ -137,7 +140,7 @@ section {
   background-color: var(--main-color);
   color: #000;
   border-radius: 0.6rem;
-  border: 2px solid black;
+  border: 1px solid black;
   -webkit-border-radius: 0.6rem;
   -moz-border-radius: 0.6rem;
   -ms-border-radius: 0.6rem;
@@ -293,6 +296,13 @@ figure {
   .grid-two--cols,
   .grid-three--cols {
     grid-template-columns: 1fr;
+  }
+
+  .section-common-heading {
+    text-align: start;
+  }
+  .section-common-subheading {
+    text-align: start;
   }
 
   .section-navbar .container {

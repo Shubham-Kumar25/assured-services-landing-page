@@ -1,31 +1,31 @@
 /* testimonials.css */
 .testimonials-container {
   width: 100%;
-  max-width: 700px;
+  max-width: 900px;
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: auto; /* Center horizontally */
-  margin-top: 10vh; /* Center vertically on the screen */
-  padding: 20px;
+
+  padding: 1rem;
   transition: all 700ms;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
   box-sizing: border-box; /* Include padding and border in the total width/height */
 }
 
 .testimonials-card {
-  margin-top: 20px;
+  margin-top: 6rem;
 }
 
 .testimonials-navigation {
   display: flex;
-  font-size: 3rem; /* Adjusted for better readability */
+  justify-content: space-between;
+  font-size: 50rem;
   margin-top: 20px;
-  gap: 10px;
-  color: #8b5cf6; /* violet-400 */
+  gap: 2;
+  color: #48c989;
   font-weight: bold;
 }
 
@@ -34,25 +34,37 @@
   transition: color 0.2s;
 }
 
+.testimonials-navigation .testimonial-arrow {
+  background-color: #48c989;
+  border: 1px solid #1e6440;
+  border-radius: 0.3rem;
+}
+
 .testimonial-arrow:hover {
-  color: #9333ea; /* violet-500 */
+  transform: scale(1.05);
 }
 
 .testimonials-surprise {
   margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .testimonials-surprise-button {
-  background-color: #8b5cf6; /* violet-400 */
-  color: white;
+  background-color: #48c989; /* violet-400 */
+  color: black;
   cursor: pointer;
   transition: all 0.2s;
   padding: 10px 20px; /* Adjusted for better button size */
   border: none;
-  border-radius: 5px;
+  border-radius: 0.6rem;
+  border: 1px solid black;
   font-weight: bold;
 }
 
 .testimonials-surprise-button:hover {
-  background-color: #9333ea; /* violet-500 */
+  background-color: #1e6440; /* violet-500 */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: white;
 }

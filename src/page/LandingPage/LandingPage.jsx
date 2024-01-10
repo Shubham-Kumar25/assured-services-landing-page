@@ -4,6 +4,7 @@ import AboutUs from "../../components/AboutUs/AboutUs";
 import Services from "../../components/Services/Services";
 import ContactUs from "../../components/ContactUs/ContactUs";
 import Testimonials from "../../components/Testimonials/Testimonials";
+import WhyUs from "../../components/WhyUs/WhyUs";
 
 function LandingPage() {
   return (
@@ -11,6 +12,7 @@ function LandingPage() {
       <HeroSection />
       <AboutUs />
       <Services />
+      <WhyUs />
       <Testimonials />
       <ContactUs />
     </div>
