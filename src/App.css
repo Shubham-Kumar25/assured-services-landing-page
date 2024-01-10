@@ -239,7 +239,7 @@ figure {
         order: 1;
 
         & img {
-          width: 50%;
+          width: 60%;
         }
       }
     }
@@ -316,5 +316,9 @@ figure {
 
   :is(.section-contact--homepage) .container:first-child {
     padding: 6.4rem 0rem 2.4rem 0rem;
+  }
+
+  .navbar-brand img {
+    width: 40%;
   }
 }

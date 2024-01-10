@@ -119,7 +119,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-4--div">
-          <p className="footer-subheading">Other Links</p>
+          <p className="footer-subheading">Other</p>
           <ul>
             <li>
               <Link to="/blogs">Blogs</Link>
