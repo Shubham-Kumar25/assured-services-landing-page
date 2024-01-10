@@ -1,6 +1,7 @@
 import React from "react";
 import "./heroSection.css";
 import heroImg from "../../assets/images/main-hero1.webp";
+
 const HeroSection = () => {
   return (
     <main>

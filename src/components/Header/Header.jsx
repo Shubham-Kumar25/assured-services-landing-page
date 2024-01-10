@@ -1,4 +1,3 @@
-// Header.jsx
 import React from "react";
 import { Link as RouterLink, useLocation } from "react-router-dom";
 import { Link, animateScroll as scroll } from "react-scroll";

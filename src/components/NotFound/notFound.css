@@ -1,4 +1,3 @@
-/* NotFound.css */
 .not-found-container {
   text-align: center;
   padding: 20px;
@@ -7,7 +6,7 @@
 
 .not-found-title {
   font-size: 6rem;
-  color: #48c989; /* Red color for emphasis */
+  color: #48c989;
 }
 
 .not-found-message {

@@ -1,5 +1,3 @@
-/*****  contact home Section *****/
-
 .section-contact--homepage {
   width: 60%;
   min-height: 30rem;
@@ -41,5 +39,3 @@
 .contact-btn:hover a {
   color: white;
 }
-
-/***** End contact home Section *****/

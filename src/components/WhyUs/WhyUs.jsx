@@ -6,7 +6,7 @@ const Feature = ({ number, title, description }) => (
   <div
     className="why-choose--div"
     data-aos="zoom-in-up"
-    data-aos-delay={number * 300}
+    data-aos-delay={number * 100}
   >
     <p className="common-text--highlight">{number}</p>
     <h3 className="section-common--title">{title}</h3>

@@ -1,4 +1,3 @@
-// Footer.jsx
 import React from "react";
 import { IoIosArrowUp } from "react-icons/io";
 import { FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";

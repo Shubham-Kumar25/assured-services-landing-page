@@ -1,5 +1,3 @@
-/***** about Section *****/
-
 .section-about .grid {
   gap: 6.4rem;
 }
@@ -11,11 +9,11 @@
 .section-about img {
   padding: 1.4rem;
   background-color: var(--supporting-color);
-  width: 150px; /* Adjust the width as needed */
-  height: auto; /* Adjust the height as needed */
+  width: 150px;
+  height: auto;
   border-radius: 50%;
   object-fit: contain;
-  object-position: center center; /* Center the image within the container */
+  object-position: center center;
   transition: all 0.3s linear;
 }
 
@@ -23,5 +21,3 @@
   transform: rotate(360deg);
   background: linear-gradient(to right, #48cc8a, #ffffff);
 }
-
-/***** End about Section *****/

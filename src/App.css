@@ -1,5 +1,4 @@
-/* base rule  */
-
+/* Base rules */
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +8,6 @@
 
 html {
   font-size: 62.5%;
-
   scroll-behavior: smooth;
 }
 
@@ -42,13 +40,11 @@ li {
   list-style: none;
 }
 
-/* theme */
-
+/* Theme */
 :root {
   --main-color: #48c989;
   --supporting-color: #e4f7ed;
   --font-color: #545150;
-  /* --bg-color: #ffffff; */
   --bg-color: #83daaf;
   --heading-color: #121421;
   --hero-heading-color: #1e6440;
@@ -59,8 +55,7 @@ li {
   --footer-bg-color: #e4f7ed;
 }
 
-/* layout */
-
+/* Layout */
 section {
   scroll-snap-align: center;
 }
@@ -100,8 +95,7 @@ section {
   grid-template-columns: repeat(4, 1fr);
 }
 
-/* module / reusable  */
-
+/* Module / Reusable */
 .section-common-heading {
   font-size: 3.2rem;
   font-weight: 700;
@@ -127,10 +121,6 @@ section {
   width: 150px;
   height: auto;
   border: 2px solid #6efeb1;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
   color: var(--hero-heading-color);
 }
 
@@ -141,14 +131,9 @@ section {
   color: #000;
   border-radius: 0.6rem;
   border: 1px solid black;
-  -webkit-border-radius: 0.6rem;
-  -moz-border-radius: 0.6rem;
-  -ms-border-radius: 0.6rem;
-  -o-border-radius: 0.6rem;
 }
 
-/* states  */
-
+/* States */
 .btn:hover {
   background-color: var(--bnt-hover-bg-color);
   cursor: pointer;
@@ -163,38 +148,29 @@ figure {
   align-items: center;
   position: relative;
 }
-/***** scrollbar Section *****/
 
-/* width */
+/* Scrollbar */
 ::-webkit-scrollbar {
   width: 1rem;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: var(--supporting-color);
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: var(--main-color);
   border-radius: 50px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: var(--hero-heading-color);
 }
 
-/***** End scrollbar Section *****/
-
-/***** media queries Section *****/
-
-/* @media (max-width: 1380px) { */
+/* Media Queries */
 @media (width <= 1400px) {
   html {
     font-size: 56.25%;
-    /* 1rem = 9px  */
   }
 
   .section-hero img {
@@ -205,7 +181,6 @@ figure {
 @media (width <= 1220px) {
   html {
     font-size: 54%;
-    /* 1rem = 9px  */
   }
 
   :is(
@@ -237,13 +212,7 @@ figure {
     & .choose-center--div {
       order: 1;
 
-      & figure::before {
-        width: 0;
-        height: 0;
-        background-color: transparent;
-        padding: 0;
-      }
-
+      & figure::before,
       & figure::after {
         width: 0;
         height: 0;
@@ -298,9 +267,7 @@ figure {
     grid-template-columns: 1fr;
   }
 
-  .section-common-heading {
-    text-align: start;
-  }
+  .section-common-heading,
   .section-common-subheading {
     text-align: start;
   }
@@ -346,9 +313,8 @@ figure {
   .contact-title {
     font-size: 2.4rem;
   }
+
   :is(.section-contact--homepage) .container:first-child {
     padding: 6.4rem 0rem 2.4rem 0rem;
   }
 }
-
-/***** End media queries Section *****/

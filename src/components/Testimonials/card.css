@@ -11,7 +11,7 @@
 }
 
 .card-container:hover {
-  transform: scale(1.05); /* Enlarge on hover */
+  transform: scale(1.05);
 }
 
 .card-image-container {
@@ -23,19 +23,19 @@
   height: 140px;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #fff; /* White border around the image */
+  border: 4px solid #fff;
 }
 
 .card-overlay {
   width: 100%;
   height: 100%;
-  background-color: #47c883; /* violet-500 */
+  background-color: #47c883;
   border-radius: 50%;
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0.8;
-  z-index: -1; /* Move the overlay behind the image */
+  z-index: -1;
 }
 
 .card-text-container {
@@ -51,11 +51,11 @@
   font-weight: bold;
   font-size: 1.5rem;
   text-transform: capitalize;
-  color: #333; /* Dark text color */
+  color: #333;
 }
 
 .card-job {
-  color: red; /* violet-500 */
+  color: red;
   text-transform: uppercase;
   font-size: 0.8rem;
   margin-top: 5px;
@@ -75,7 +75,6 @@
 }
 
 @media (min-width: 768px) {
-  /* Responsive styling for larger screens */
   .card-container {
     max-width: 800px;
   }

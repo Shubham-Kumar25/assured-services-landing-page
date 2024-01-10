@@ -1,39 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "./Card";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
-import { useState } from "react";
-import reviews from "./Data"; // Import the updated reviews data
+import reviews from "./Data";
 import "./testimonials.css";
 
 const Testimonials = () => {
   const [index, setIndex] = useState(0);
 
-  function leftShiftHandler() {
+  const leftShiftHandler = () => {
     if (reviews && reviews.length > 1) {
-      if (index - 1 < 0) {
-        setIndex(reviews.length - 1);
-      } else {
-        setIndex(index - 1);
-      }
+      setIndex(
+        (prevIndex) => (prevIndex - 1 + reviews.length) % reviews.length
+      );
     }
-  }
+  };
 
-  function rightShiftHandler() {
+  const rightShiftHandler = () => {
     if (reviews && reviews.length > 1) {
-      if (index + 1 >= reviews.length) {
-        setIndex(0);
-      } else {
-        setIndex(index + 1);
-      }
+      setIndex((prevIndex) => (prevIndex + 1) % reviews.length);
     }
-  }
+  };
 
-  function surpriseHandler() {
+  const surpriseHandler = () => {
     if (reviews && reviews.length > 0) {
-      let randomIndex = Math.floor(Math.random() * reviews.length);
+      const randomIndex = Math.floor(Math.random() * reviews.length);
       setIndex(randomIndex);
     }
-  }
+  };
 
   if (!reviews || reviews.length === 0) {
     return <div className="testimonials-error">No testimonials available.</div>;
@@ -67,7 +60,7 @@ const Testimonials = () => {
           </button>
         </div>
 
-        <div className="testimonials-surprise ">
+        <div className="testimonials-surprise">
           <button
             onClick={surpriseHandler}
             className="testimonials-surprise-button"

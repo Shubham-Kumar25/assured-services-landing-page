@@ -1,5 +1,3 @@
-/*****  why choose  Section *****/
-
 .section-why--choose .grid {
   gap: 9.6rem;
 }
@@ -9,7 +7,6 @@
 }
 
 .section-why--choose .text-align--right .why-choose--div {
-  /* text-align: right; */
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -28,10 +25,6 @@
   font-size: 2.4rem;
   font-weight: 700;
   border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
 }
 
 .choose-center--div img {
@@ -54,20 +47,10 @@ figure {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
   background-color: var(--main-color);
   width: 25rem;
-  /*aspect-ratio: 1;
-  */
   height: 25rem;
   border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
   z-index: -1;
 }
 
@@ -78,5 +61,3 @@ figure {
   z-index: -2;
   border: 0.5rem solid var(--supporting-color);
 }
-
-/***** End  why choose  Section *****/

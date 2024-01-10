@@ -1,4 +1,3 @@
-// App.jsx
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import LandingPage from "./page/LandingPage/LandingPage";
@@ -24,9 +23,9 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/contactus" element={<ContactUsMain />} />
-        {/* Add a catch-all route for incorrect URLs */}
         <Route path="*" element={<NotFound />} />
       </Routes>
+
       <Footer />
     </>
   );
