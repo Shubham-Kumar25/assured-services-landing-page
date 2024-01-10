@@ -1,33 +1,25 @@
 /***** course Section *****/
 
-.section-course {
+.section-services {
   background-color: #f0f8f5;
 }
 
-.section-course .grid {
+.section-services .grid {
   gap: 3.2rem;
 }
 
-.section-course .course-div {
+.section-services .services-div {
   padding: 3.2rem;
   border-radius: 2rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
 }
 
-.section-course .course-div:hover {
+.section-services .services-div:hover {
   box-shadow: var(--btn-box-shadow);
   background-color: #e7f2ed;
 }
 
-/* .course-div {
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-} */
-
-.course-div .icon .iconImg {
+.services-div .icon .iconImg {
   color: #68bf9b;
   background-color: #e7f6ef;
 }

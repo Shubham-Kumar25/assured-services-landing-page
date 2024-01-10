@@ -11,7 +11,7 @@ import digitalMarketingIcon from "../../assets/images/digital-marketing-icon.png
 
 const Services = () => {
   return (
-    <section id="services" className="section-course">
+    <section id="services" className="section-services">
       <div className="container">
         <h2 className="section-common-heading">Our Services</h2>
         <p className="section-common-subheading">
@@ -71,7 +71,7 @@ const Services = () => {
           },
         ].map((service, index) => (
           <div
-            className="course-div"
+            className="services-div"
             data-aos="zoom-in"
             data-aos-delay={index * 50}
             key={index}

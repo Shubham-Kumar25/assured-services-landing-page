@@ -1,6 +1,8 @@
+// Footer.jsx
 import React from "react";
 import { IoIosArrowUp } from "react-icons/io";
 import { FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import "./footer.css";
 import logo from "../../assets/logo/main-logo.png";
 
@@ -31,47 +33,44 @@ const Footer = () => {
       <div className="container grid grid-four--cols">
         <div className="footer-1--div">
           <div className="logo-brand">
-            <a className="footer-subheading" href="/">
+            <Link className="footer-subheading" to="/">
               <img
                 src={logo}
                 alt="Assured Services Logo"
                 width="50%"
                 height="auto"
               />
-            </a>
+            </Link>
           </div>
           <p>Your Trusted Partner for Premium Services</p>
           <div className="social-footer--icons">
-            <a
-              href="https://twitter.com/assuredservices"
-              target="_blank"
+            <Link
+              to=""
               rel="noopener noreferrer"
               title="Assured Services Twitter"
             >
-              <i className="fa-brands fa-twitter">
-                <FaTwitter />
+              <i>
+                <FaTwitter size={25} />
               </i>
-            </a>
-            <a
-              href="https://linkedin.com/company/assuredservices"
-              target="_blank"
+            </Link>
+            <Link
+              to=""
               rel="noopener noreferrer"
               title="Assured Services LinkedIn"
             >
-              <i className="fa-brands fa-linkedin">
-                <FaLinkedin />
+              <i>
+                <FaLinkedin size={25} />
               </i>
-            </a>
-            <a
-              href="https://instagram.com/assuredservices"
-              target="_blank"
+            </Link>
+            <Link
+              to=""
               rel="noopener noreferrer"
               title="Assured Services Instagram"
             >
-              <i className="fa-brands fa-instagram">
-                <FaInstagram />
+              <i>
+                <FaInstagram size={25} />
               </i>
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -79,25 +78,25 @@ const Footer = () => {
           <p className="footer-subheading">Services</p>
           <ul>
             <li>
-              <a href="/web-development">Web Development</a>
+              <Link to="/web-development">Web Development</Link>
             </li>
             <li>
-              <a href="/mobile-app-development">Mobile App Development</a>
+              <Link to="/mobile-app-development">Mobile App Development</Link>
             </li>
             <li>
-              <a href="/data-analytics">Data Analytics</a>
+              <Link to="/data-analytics">Data Analytics</Link>
             </li>
             <li>
-              <a href="/cloud-services">Cloud Services</a>
+              <Link to="/cloud-services">Cloud Services</Link>
             </li>
             <li>
-              <a href="/cybersecurity">Cybersecurity Solutions</a>
+              <Link to="/cybersecurity">Cybersecurity Solutions</Link>
             </li>
             <li>
-              <a href="/it-consulting">IT Consulting</a>
+              <Link to="/it-consulting">IT Consulting</Link>
             </li>
             <li>
-              <a href="/ux-design">UX/UI Design</a>
+              <Link to="/ux-design">UX/UI Design</Link>
             </li>
           </ul>
         </div>
@@ -106,34 +105,34 @@ const Footer = () => {
           <p className="footer-subheading">Quick Links</p>
           <ul>
             <li>
-              <a href="/about-us">About Us</a>
+              <Link to="/about-us">About Us</Link>
             </li>
             <li>
-              <a href="/services">Services</a>
+              <Link to="/services">Services</Link>
             </li>
             <li>
-              <a href="/contact-us">Contact Us</a>
+              <Link to="/contact-us">Contact Us</Link>
             </li>
             <li>
-              <a href="/faq">FAQs</a>
+              <Link to="/faq">FAQs</Link>
             </li>
           </ul>
         </div>
 
         <div className="footer-4--div">
-          <p className="footer-subheading">Connect With Us</p>
+          <p className="footer-subheading">Other Links</p>
           <ul>
             <li>
-              <a href="/blogs">Blogs</a>
+              <Link to="/blogs">Blogs</Link>
             </li>
             <li>
-              <a href="/terms-of-service">Terms of Service</a>
+              <Link to="/terms-of-service">Terms of Service</Link>
             </li>
             <li>
-              <a href="/privacy-policy">Privacy Policy</a>
+              <Link to="/privacy-policy">Privacy Policy</Link>
             </li>
             <li>
-              <a href="/careers">Careers</a>
+              <Link to="/careers">Careers</Link>
             </li>
           </ul>
         </div>

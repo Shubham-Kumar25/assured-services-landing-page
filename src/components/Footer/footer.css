@@ -34,7 +34,7 @@ footer .grid {
   position: relative;
   display: block;
   width: calc(124% + 1.3px);
-  height: 297px;
+  height: 30rem;
 }
 
 .custom-shape-divider-top .shape-fill {
@@ -71,7 +71,7 @@ footer .grid {
   bottom: 20px;
   right: 20px;
   cursor: pointer;
-  background-color: #3498db;
+  background-color: #48c989;
   color: #fff;
   border-radius: 50%;
   padding: 10px;
@@ -90,28 +90,3 @@ footer .grid {
   color: #555;
   font-size: 2rem;
 }
-
-/* footer .footer-1-div .footer-social--icons {
-  display: flex;
-  gap: 2.4rem;
-}
-
-footer .footer-1-div .fa-brands {
-  font-size: 3rem;
-  padding: 0;
-  width: 5rem;
-  aspect-ratio: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.3s linear;
-}
-
-footer .footer-1-div .fa-brands:hover {
-  background-color: var(--bnt-hover-bg-color);
-  color: var(--supporting-color);
-  cursor: pointer;
-  rotate: 360deg;
-} */
-
-/***** End footer Section *****/

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./contactUs.css";
 import contactUsImg from "../../assets/images/contact-us.png";
 
@@ -17,8 +18,10 @@ const ContactUs = () => {
             business. Our team is ready to assist you on your journey towards
             success.
           </p>
-          <div className="btn contact-btn">
-            <a href="contact.html">Get in Touch</a>
+          <div>
+            <Link to="/contactus" className="btn contact-btn">
+              Get in Touch
+            </Link>
           </div>
         </div>
         <div className="contact-image">

@@ -56,11 +56,11 @@
   color: black;
   cursor: pointer;
   transition: all 0.2s;
-  padding: 10px 20px; /* Adjusted for better button size */
-  border: none;
+  padding: 1.2rem 3.2rem;
+  display: inline-block;
+
   border-radius: 0.6rem;
   border: 1px solid black;
-  font-weight: bold;
 }
 
 .testimonials-surprise-button:hover {
