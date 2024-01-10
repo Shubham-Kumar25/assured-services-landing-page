@@ -1,7 +1,7 @@
 /***** course Section *****/
 
 .section-course {
-  background-color: var(--supporting-color);
+  background-color: #f0f8f5;
 }
 
 .section-course .grid {
@@ -10,10 +10,13 @@
 
 .section-course .course-div {
   padding: 3.2rem;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
 }
 
 .section-course .course-div:hover {
   box-shadow: var(--btn-box-shadow);
+  background-color: #e7f2ed;
 }
 
 /* .course-div {

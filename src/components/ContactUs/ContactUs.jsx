@@ -7,7 +7,7 @@ const ContactUs = () => {
     <div
       className="section-contact--homepage"
       data-aos="zoom-in-up"
-      id="section-contact--homepage"
+      id="contact"
     >
       <div className="container grid grid-two--cols">
         <div className="contact-content">

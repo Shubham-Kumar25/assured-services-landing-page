@@ -4,11 +4,21 @@ import LandingPage from "./page/LandingPage/LandingPage";
 import ContactUsMain from "./components/ContactUsMain/ContactUsMain";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import Headroom from "react-headroom";
 
 function App() {
   return (
     <>
-      <Header />
+      <Headroom
+        style={{
+          background: "white",
+          transition: "all .5s ease-in-out",
+          zIndex: 10,
+        }}
+      >
+        <Header />
+      </Headroom>
+
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/contactus" element={<ContactUsMain />} />

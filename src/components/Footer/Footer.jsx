@@ -1,11 +1,20 @@
 import React from "react";
+import { IoIosArrowUp } from "react-icons/io";
+import { FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 import "./footer.css";
 import logo from "../../assets/logo/main-logo.png";
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
-    <footer>
-      <div className="custom-shape-divider-top-1704817108">
+    <footer className="footer">
+      <div className="custom-shape-divider-top">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -18,6 +27,7 @@ const Footer = () => {
           ></path>
         </svg>
       </div>
+
       <div className="container grid grid-four--cols">
         <div className="footer-1--div">
           <div className="logo-brand">
@@ -36,25 +46,31 @@ const Footer = () => {
               href="https://twitter.com/assuredservices"
               target="_blank"
               rel="noopener noreferrer"
-              alt="Assured Services Twitter"
+              title="Assured Services Twitter"
             >
-              <i className="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-twitter">
+                <FaTwitter />
+              </i>
             </a>
             <a
               href="https://linkedin.com/company/assuredservices"
               target="_blank"
               rel="noopener noreferrer"
-              alt="Assured Services LinkedIn"
+              title="Assured Services LinkedIn"
             >
-              <i className="fa-brands fa-linkedin"></i>
+              <i className="fa-brands fa-linkedin">
+                <FaLinkedin />
+              </i>
             </a>
             <a
               href="https://instagram.com/assuredservices"
               target="_blank"
               rel="noopener noreferrer"
-              alt="Assured Services Instagram"
+              title="Assured Services Instagram"
             >
-              <i className="fa-brands fa-instagram"></i>
+              <i className="fa-brands fa-instagram">
+                <FaInstagram />
+              </i>
             </a>
           </div>
         </div>
@@ -123,7 +139,12 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Additional Content for Copyright */}
+      {/* Scroll to top button/icon */}
+      <div className="scroll-to-top" onClick={scrollToTop}>
+        <IoIosArrowUp size={30} />
+      </div>
+
+      {/* Copyright */}
       <hr className="footer-horizontal-line" />
       <div className="footer-copyright">
         <p>&#169; 2023 Assured Services. All rights reserved.</p>

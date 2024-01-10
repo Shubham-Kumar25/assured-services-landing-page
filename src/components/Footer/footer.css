@@ -21,7 +21,7 @@ footer .grid {
 .footer-1--div p {
   margin: 1rem 0 3.2rem 0;
 }
-.custom-shape-divider-top-1704817108 {
+.custom-shape-divider-top {
   position: absolute;
   top: 0;
   left: 0;
@@ -30,14 +30,14 @@ footer .grid {
   line-height: 0;
 }
 
-.custom-shape-divider-top-1704817108 svg {
+.custom-shape-divider-top svg {
   position: relative;
   display: block;
   width: calc(124% + 1.3px);
   height: 297px;
 }
 
-.custom-shape-divider-top-1704817108 .shape-fill {
+.custom-shape-divider-top .shape-fill {
   fill: white;
 }
 
@@ -64,6 +64,18 @@ footer .grid {
       }
     }
   }
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .footer-horizontal-line {

@@ -11,7 +11,7 @@ import digitalMarketingIcon from "../../assets/images/digital-marketing-icon.png
 
 const Services = () => {
   return (
-    <section className="section-course">
+    <section id="services" className="section-course">
       <div className="container">
         <h2 className="section-common-heading">Our Services</h2>
         <p className="section-common-subheading">
