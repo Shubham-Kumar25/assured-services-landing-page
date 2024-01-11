@@ -13,7 +13,7 @@ Follow these steps to set up the project on your local machine:
 
 2. **Navigate to the project directory:**
    ```bash
-   cd assured-services
+   assured-services-landing-page
    ```
 
 3. **Install dependencies:**
