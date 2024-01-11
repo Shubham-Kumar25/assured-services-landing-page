@@ -1,6 +1,7 @@
 import React from "react";
 import "./heroSection.css";
 import heroImg from "../../assets/images/main-hero1.webp";
+import { Link } from "react-scroll";
 
 const HeroSection = () => {
   return (
@@ -19,9 +20,14 @@ const HeroSection = () => {
               met with precision and professionalism.
             </p>
             <div className="hero-btn">
-              <a href="services.html" className="btn btn-white">
+              <Link
+                to="services"
+                smooth={true}
+                duration={200}
+                className="btn btn-white"
+              >
                 Explore Our Services
-              </a>
+              </Link>
             </div>
           </div>
           <div className="section-hero--image" data-aos="fade-up">
