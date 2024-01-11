@@ -2,10 +2,6 @@
 
 Welcome to Assured Services, your premier destination for innovative solutions and top-notch services.
 
-## Introduction
-
-Explore Assured Services, where excellence meets innovation. This repository houses the source code for the Assured Services website, demonstrating our unwavering commitment to delivering superior solutions across diverse domains.
-
 ## Getting Started
 
 Follow these steps to set up the project on your local machine:
