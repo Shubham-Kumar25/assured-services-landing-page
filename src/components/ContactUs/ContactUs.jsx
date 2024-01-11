@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./contactUs.css";
-import contactUsImg from "../../assets/images/contact-us.png";
+import contactUsImg from "../../assets/images/contact-us.webp";
 
 const ContactUs = () => (
   <div className="section-contact--homepage" data-aos="zoom-in-up" id="contact">

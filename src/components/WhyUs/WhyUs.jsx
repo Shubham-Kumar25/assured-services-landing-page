@@ -1,6 +1,6 @@
 import React from "react";
 import "./whyUs.css";
-import AssuredServicesImage from "../../assets/images/whyus.png";
+import AssuredServicesImage from "../../assets/images/whyus.webp";
 
 const Feature = ({ number, title, description }) => (
   <div
