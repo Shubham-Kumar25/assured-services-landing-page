@@ -1,5 +1,4 @@
-```markdown
-# Assured Services
+## Assured Services
 
 Welcome to Assured Services, your premier destination for innovative solutions and top-notch services.
 
@@ -43,7 +42,6 @@ Follow these steps to set up the project on your local machine:
 
 - **npm run dev:** Initiates the development server.
 - **npm run build:** Builds the production-ready project.
-- ...
 
 ## Dependencies
 
@@ -53,4 +51,3 @@ Follow these steps to set up the project on your local machine:
 - **react-icons:** ^4.12.0
 - **react-router-dom:** ^6.21.1
 - **react-scroll:** ^1.9.0
-```
