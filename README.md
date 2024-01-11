@@ -29,6 +29,7 @@ Follow these steps to set up the project on your local machine:
    ```bash
    npm run dev
    ```
+   Visit http://localhost:3000/ or http://localhost:5173/ in your browser to view the application.
 
 ## Folder Structure
 
