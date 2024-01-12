@@ -6,6 +6,11 @@ const ContactUsMain = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log("Form submitted!");
+  };
+
   return (
     <div className="section-contact">
       <div className="container">
@@ -17,7 +22,7 @@ const ContactUsMain = () => {
 
       <div className="container grid grid-two--cols">
         <div className="contact-content">
-          <form action="https://formspree.io/f/xyyqbjej" method="POST">
+          <form onSubmit={handleSubmit}>
             <div className="grid grid-two--cols mb-3">
               <div>
                 <label htmlFor="name">Your Name</label>
