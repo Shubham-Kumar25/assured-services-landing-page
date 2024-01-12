@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 2rem;
   background-color: #f0f8f5;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -40,7 +40,7 @@
 
 .card-text-container {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 .card-header {
@@ -49,7 +49,7 @@
 
 .card-name {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   text-transform: capitalize;
   color: #333;
 }
@@ -57,8 +57,10 @@
 .card-job {
   color: red;
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   margin-top: 5px;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
 }
 
 .card-quote {
@@ -72,6 +74,8 @@
   text-align: center;
   margin-top: 10px;
   font-size: 2rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
 }
 
 @media (min-width: 768px) {
